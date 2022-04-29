@@ -65,7 +65,7 @@ namespace Examen2
                 case "EUR - Euro":
                     return conversionEUR(conversion, cantidad);
                     break;
-                case "PY - Yen japonés":
+                case "JPY - Yen japonés":
                     return conversionJPY(conversion, cantidad);
                     break;
             }
@@ -87,7 +87,7 @@ namespace Examen2
             {
                 return "€ " + cantidad * 0.04 + "00";
             }
-            if (conversion == "PY - Yen japonés")
+            if (conversion == "JPY - Yen japonés")
             {
                 return "¥ " + cantidad * 5.32 + "00";
             }
@@ -109,7 +109,7 @@ namespace Examen2
             {
                 return "€ " + cantidad * 0.89 + "00";
             }
-            if (conversion == "PY - Yen japonés")
+            if (conversion == "JPY - Yen japonés")
             {
                 return "¥ " + cantidad * 113.05 + "00";
             }
@@ -131,7 +131,7 @@ namespace Examen2
             {
                 return "€ " + cantidad * 0.69 + "00";
             }
-            if (conversion == "PY - Yen japonés")
+            if (conversion == "JPY - Yen japonés")
             { 
                 return "¥ " + cantidad * 88.12 + "00";
             }
@@ -153,7 +153,7 @@ namespace Examen2
             {
                 return "$ " + cantidad * 1.45 + "00";
             }
-            if (conversion == "PY - Yen japonés")
+            if (conversion == "JPY - Yen japonés")
             {
                 return "¥ " + cantidad * 127.56 + "00";
             }
